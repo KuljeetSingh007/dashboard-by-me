@@ -1,0 +1,53 @@
+.activity {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 10px;
+    gap: 16px;
+    
+}
+
+.activity-top {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.order-list-box {
+    flex-direction: column;
+    gap: 24px;
+}
+
+.list-item {
+    display: flex;
+    align-items: start;
+    gap: 14px;
+    width: 100%;
+}
+
+.msg-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 100px;
+    word-wrap: break-word;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--text-color-black);
+}
+
+.msg-box span {
+    font-size: 0.8rem;
+    color: var(--text-color-dark);
+}
+
+
+.img-user {
+    width: 3rem;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:425px) {
+    .msg-box span{
+        font-size: 0.7rem;
+    }
+}
